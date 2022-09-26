@@ -13,7 +13,12 @@ c=a+b
 print(c)
 
 # Hace una división.
-a=input()
-b=input()
+a=73478
+b=322
 c=a/b
 print(c)
+
+# Conversación de presentacion.
+print("¿Cómo te llamas?")
+nombre=input()
+print("Hola "+nombre+" encantado de conocerte")
