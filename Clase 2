@@ -13,7 +13,7 @@ n2=int(input("Dime otro número: "))
 n3=int(input("Dime otro número más: "))
 print(statistics.median([n1,n2,n3]))
 
-# Calculadora de medias de 2 a 4 valores
+# Calculadora de medias de 2 a 4 valores.
 g=int(input("¿Cuántos valores quieres mediar? "))
 if(g==2):
     n1=int(input("Dime un número: "))
