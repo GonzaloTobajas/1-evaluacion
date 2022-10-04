@@ -1,0 +1,7 @@
+# Tablas de multiplicar
+while True:
+    def loop():
+        numero=(int(input("Quiero la tabla del ---> ")))
+        for primer in range(1,10):
+            print(primer,"x",numero,"=",primer*numero)
+    loop()
