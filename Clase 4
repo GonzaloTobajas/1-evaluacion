@@ -1,7 +1,10 @@
-# Tablas de multiplicar
+# Tablas de multiplicar infinitas
+import time
 while True:
     def loop():
         numero=(int(input("Quiero la tabla del ---> ")))
-        for primer in range(1,10):
+        for primer in range(1,11):
             print(primer,"x",numero,"=",primer*numero)
+            time.sleep(0.5)
+        time.sleep(0.8)
     loop()
