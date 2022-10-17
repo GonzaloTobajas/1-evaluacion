@@ -12,3 +12,18 @@ while True:
         break
     if hora>24:
         print("Ni puta gracia, dime una hora de verdad")
+
+#TE pregunta la hora y te saluda en funcion de la hora
+def saludar():
+    hora=int(input("Dime que hora es: "))
+    if hora<=0 or hora>=24:
+        print("Eso eta' mah")
+    else:
+        if hora>=6 and hora<=12:
+            print("Buenoh díah")
+        else:
+            if hora>12 and hora<20:
+                print("Buenah tardeh")
+            else:
+                print("Buenah nocheh")
+saludar()
