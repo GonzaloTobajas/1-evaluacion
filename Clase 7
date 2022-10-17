@@ -1,0 +1,14 @@
+#TE pregunta la hora y te saluda en funcion de la hora
+while True:
+    hora=int(input("¿Cual crees que será la hora de tu muerte?: "))
+    if hora<14 and hora>5:
+        print("Buenos días")
+        break
+    if hora<20 and hora>14:
+        print("Buenas tardes")
+        break
+    if hora<5 and hora>20:
+        print("Buenas noches")
+        break
+    if hora>24:
+        print("Ni puta gracia, dime una hora de verdad")
