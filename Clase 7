@@ -27,3 +27,20 @@ def saludar():
             else:
                 print("Buenah nocheh")
 saludar()
+
+#TE pregunta la hora y te saluda en funcion de la hora
+seguir=True
+while seguir==True:
+    hora=int(input("¿Qué hora es?: "))
+    if hora<=14 and hora>5:
+        print("Buenos días")
+        seguir=False
+    if hora<=20 and hora>14:
+        print("Buenas tardes")
+        seguir=False
+    if hora<=5 or (hora>20 and hora<24):
+        print("Buenas noches")
+        seguir=False
+    if hora>24:
+        print("¡Dime una hora de verdad!")
+        seguir=True
