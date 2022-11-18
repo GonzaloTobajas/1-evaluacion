@@ -14,7 +14,7 @@ while seguir==True:
             respuesta=True
         return(respuesta)
     def deletreo():
-        palabra=input("Dime una palabra: ")
+        palabra=input("Dime una contraseña: ")
         cuentavocales=0
         cuentaconsonantes=0
         for cont in range(0,len(palabra)):
@@ -39,10 +39,10 @@ while seguir==True:
             print("Tu contraseña debería tener letras y números")
             fun=4
         if fun==0:
-            print("La contraseña es segura")
+            print("La contraseña es segura, pero podría ser mejor")
             seguir=False
         if cuentavocales<3 and cuentaconsonantes<4 and fun==0:
-            print("Tu contraseña es bastante segura")
+            print("Tu contraseña es bastante segura, es casi perfecta")
         if cuentavocales<4 and cuentaconsonantes<5 and fun==0:
-            print("Tu contraseña es muy segura")
+            print("Tu contraseña es perfectamente segura")
     deletreo()
